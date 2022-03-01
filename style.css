@@ -1,20 +1,24 @@
-*body{
-    margin:0;
-    padding: 0;
+*body {
+  margin: 0;
 }
-h1{
-    text-align: center;
-    background-color: #f9f9f9;
-    justify-content: flex;
-    color:blue;
-    font-size: 60px;
+
+h1 {
+  text-align: center;
+  background-color: #f9f9f9;
+  justify-content: flex;
+  color: blue;
+  font-size: 60px;
 }
-p{
-    color: tomato;
-    font-size: 20px;
+
+p {
+  color: tomato;
+  font-size: 20px;
 }
-.vid-list > iframe{
-    background-size: 20%;
-    display:flex;
-    
+
+.vid-list {
+  display:flex;
+}
+
+.vid-list iframe{
+    padding: 10px;
 }
